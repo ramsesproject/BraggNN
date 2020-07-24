@@ -1,6 +1,7 @@
 # About
 
 This repository hosts the offical implementation of VoigtNet for locating the Bragg peak position in a much fater way, compare with conventional Voigt fitting.
+![VoigtNet model Architecture](img/VoigtNet.png)
 
 # Notes
 
