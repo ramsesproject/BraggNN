@@ -1,5 +1,7 @@
 # About
 
+__Full code and dataset will be released upon publication of the paper__.
+
 This repository hosts the offical implementation of VoigtNet for locating the Bragg peak position in a much fater way, compare with conventional Voigt fitting.
 ![VoigtNet model Architecture](img/VoigtNet.png)
 
@@ -10,6 +12,12 @@ This repository hosts the offical implementation of VoigtNet for locating the Br
 # Requirement 
 
 * PyTorch=1.5.0
+
+# Import a pre-trained model
+
+## Data preparaion 
+
+## run model to estimate peak center
 
 # Retrain
 
@@ -26,3 +34,9 @@ This repository hosts the offical implementation of VoigtNet for locating the Br
 * all hyper parameters and model configurations are given by using augment passing. 
 * Please refer the help of main.py, e.g., run python main.py --help to get explaination of each augment
 * Once the training process is done, you are encouraged to check the validation error in the log file to find the best model checkpoint. 
+
+# Advanced configuration for the model
+
+If you are working on normal diffractions that have reasonablly OK peaks, you do not need to customize the model. Based on our experience, the default model architecture should work reasonally well for any normal cases. The most you need is just a re-train. 
+
+If you have some basic knowledge about machine learning and know the intuition of tuning model size based on training error and validation error. You are encorage to keep reading instructions to change the size of the model.
