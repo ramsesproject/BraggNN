@@ -17,7 +17,11 @@ This repository hosts the offical implementation of BraggNN for locating the Bra
 
 ## Data preparaion 
 
+TBD 
+
 ## run model to estimate peak center
+
+TBD
 
 # Retrain
 
