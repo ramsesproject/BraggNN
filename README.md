@@ -1,4 +1,7 @@
 # About
+# This repo has been moved to [https://github.com/lzhengchun/BraggNN](https://github.com/lzhengchun/BraggNN)
+
+
 
 __Full code and dataset will be released upon publication of the paper__.
 
